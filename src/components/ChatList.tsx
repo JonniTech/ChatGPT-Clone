@@ -4,7 +4,7 @@ import type { Message } from '@/lib/openai';
 
 interface ChatListProps {
     messages: Message[];
-    messagesEndRef: React.RefObject<HTMLDivElement>;
+    messagesEndRef: React.RefObject<HTMLDivElement | null>;
 }
 
 export function ChatList({ messages, messagesEndRef }: ChatListProps) {

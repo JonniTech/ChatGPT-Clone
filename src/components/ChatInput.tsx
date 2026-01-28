@@ -1,4 +1,4 @@
-import { useState, KeyboardEvent } from 'react';
+import { useState, type KeyboardEvent } from 'react';
 import { FiSend } from 'react-icons/fi';
 import { Textarea } from './ui/textarea';
 import { Button } from './ui/button';
